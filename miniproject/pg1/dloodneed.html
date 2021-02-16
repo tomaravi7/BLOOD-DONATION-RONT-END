@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HealthChitkara:Blood Donation
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bloodneed2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="../favcon2.png">
+</head>
+
+<body>
+    <nav style="margin: 0px;">
+        <h1 id="logo"><a href="./index.html" target="_blank"><img src="../LOGO.jpg"></a></h1>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pg1/benefits.html">Why Donate?</a></li>
+            <li>
+                <a href="../pg5/eligibility.html">Eligibility</a>
+            </li>
+            <li>
+                <a href="../pg4/process4.html">Process</a>
+            </li>
+            <li>
+                <a href="../pg3/faq.html">FAQ</a>
+            </li>
+            <li><a href="../pg2/form.html">Donate Now!</a></li>
+            <li>
+                <a href="../pg2/contact.html">Contact Us</a>
+            </li>
+        </ul>
+        <div class="burger" onclick="navSlide()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <main id="content1">
+        <h1>Find Blood Donors</h1>
+        <div style="display: flex;flex-direction: row;background-color: red;border-radius: 10px;">
+            <div id="formbg">
+                <label for="email" style="font-family: sans-serif;">Email Id</label><br>
+                </i><input type="email" name="email" id="email" placeholder="example@mail.com" required
+                    style="font-family: calibri;padding: 5px;" size="50"><br><br>
+                <label for="blood-group" style="font-family: sans-serif;">Blood Group</label><br>
+                <select name="BloodGroup" style="padding: 5px;width: 90%;" id="blood-group" required>
+                    <option value="">Select Blood Group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select><br><br>
+                <label for="gender">Gender</label><br>
+                <select name="gender" style="padding: 5px;width: 90%;" id="gender" required>
+                    <option value="">Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female </option>
+                    <option value="Other">Other</option>
+                    <option value="NA">Rather Not Say</option>
+                </select><br><br>
+                <label for="state" style="font-family: sans-serif;">State</label><br>
+                <select name="state" style="padding: 5px;width: 90%;">
+                    <option value="">Select Your State</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="UP">Uttar Pradesh</option>
+                </select><br><br>
+                <label for="city" style="font-family: sans-serif;">City</label><br>
+                <input type="text" name="city" id="city" placeholder="City"
+                    style="font-family: calibri;padding: 5px;width: 90%;"><BR><br>
+                <button class="btn-own" id="bttn">Find Now</button>
+            </div>
+            <img src="../images/blood-drop.png">
+        </div>
+    </main>
+    <!-- contact -->
+    <footer id="foot">
+        <section id="contact">
+            <h1 style="font-size: 35px;margin-left: 6vw;">
+                Contact
+            </h1>
+            <div id="contact-container">
+                <div id="my-details-container">
+                    <h3> Get In touch </h3>
+                    <p>For Any Additional Information Contact Us At </p>
+
+                    <h3> Address </h3>
+                    <div class="my-details-info-container"><a
+                            href="https://www.google.com/maps/place/Rudrapur,+Uttarakhand/@28.9882367,79.3905345,13z/data=!3m1!4b1!4m5!3m4!1s0x39a07f9567c1f745:0xdffe5c8738783baf!8m2!3d28.9875082!4d79.4141214"
+                            target="_blank" style="text-decoration: none;color: white;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rudrapur, Dist.- Udham Sing Nagar, Uttrakhand-263153, India</span>
+                        </a>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <span>8919048481</span>
+                    </div>
+                    <div class="my-details-info-container"><a href="https://mail.google.com" target="_blank"
+                            style="text-decoration: none;color: white;">
+                            <i class="far fa-envelope"></i>
+                            <span>bloodtest_2020@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="my-details-container">
+                    <h3>Additional Information</h3>
+                    <a href="../pg3/faq.html" target="_blank" style="text-decoration: none;color: white;">FAQ</a><br>
+                    <a href="../pg2/contact.html" target="_blank" style="text-decoration: none;color: white;">Contact
+                        Us</a><br>
+                    <a href="../pg5/privacy.html" target="_blank" style="text-decoration: none;color: white;">Privacy
+                        Policy</a>
+                </div>
+                <div id="my-details-container">
+                    <h3>Let Us Help You</h3>
+                    <a href="../pg2/form.html" style="color: white;">Apply online For Blood Donation At Your Nearest
+                        Blood
+                        Bank</a>
+                    <h3>You Can Donate To Help</h3>
+                    <span class="paymenticons" style="font-size: 4.5rem;">
+                        <span style="flex-grow: 1;"><a href="https://www.mastercard.co.in/en-in.html"
+                                style="text-decoration: none;color: white;" target="_blank"><i
+                                    class="fab fa-cc-mastercard" aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a
+                                href="https://www.paypal.com/in/webapps/mpp/home?gclsrc=aw.ds&gclid=CjwKCAjwlID8BRAFEiwAnUoK1U42lw7AQvFMbu0qSSG1q1q2tYfUiM05ieyba3FDztz4Opaq4jGCLBoCD90QAvD_BwE&gclsrc=aw.ds"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-cc-paypal"
+                                    aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://www.visa.co.in/"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-cc-visa"
+                                    aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://pay.google.com/intl/en_in/about/"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-google"
+                                    aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://www.hdfcbank.com/"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fa fa-credit-card"
+                                    aria-hidden="true"></i></a></span>
+                    </span>
+                </div>
+                <div id="my-details-container">
+                    <p style="text-align: justify;"> &copy; 2002-2020 HealthChitkara is a <a
+                            href="https://www.chitkara.edu.in/" style="color: white;">Chitkara University</a>.
+                        All rights reserved. Our website services, content, and products are for informational purposes
+                        only.We do not provide medical advice, diagnosis, or treatment.
+                    </p>
+                </div>
+        </section>
+    </footer>
+    <script src="bloodneed1.js"></script>
+</body>
+
+</html>

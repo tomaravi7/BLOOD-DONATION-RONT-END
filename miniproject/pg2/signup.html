@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HealthChitkara:Blood Donation
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="signup1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="../favcon2.png">
+</head>
+
+<body>
+    <nav style="margin: 0px;">
+        <h1 id="logo"><a href="./index.html" target="_blank"><img src="../LOGO.jpg"></a></h1>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pg1/benefits.html">Why Donate?</a></li>
+            <li>
+                <a href="../pg5/eligibility.html">Eligibility</a>
+            </li>
+            <li>
+                <a href="../pg4/process4.html">Process</a>
+            </li>
+            <li>
+                <a href="../pg3/faq.html">FAQ</a>
+            </li>
+            <li><a href="../pg2/form.html">Donate Now!</a></li>
+            <li>
+                <a href="../pg2/contact.html">Contact Us</a>
+            </li>
+        </ul>
+        <div class="burger" onclick="navSlide()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <main id="content1">
+        <div>
+            <h2 id="form-heading">Health Chitkara Signup</h2>
+        </div>
+        <form>
+            <div>
+                <label for="email" style="font-family: sans-serif;">Email Id</label><br>
+                <i class="fa fa-envelope" aria-hidden="true"
+                    style="padding: 10px;background: dodgerblue;color: white;min-width: 50px;text-align: center;">
+                </i> <input type="email" name="email" id="email" placeholder="example@mail.com" required
+                    style="font-family: calibri;padding: 5px;" size="60">
+                <br><br>
+                <label for="pass" style="font-family: sans-serif;">Password</label><br>
+                <i class="fa fa-key" aria-hidden="true"
+                    style="padding: 10px;background: dodgerblue;color: white;min-width: 50px;text-align: center;">
+                </i> <input type="password" name="password" id="pass" placeholder="password" required
+                    style="font-family: calibri;padding: 5px;" size="60"><br><br>
+                <label for="repass" style="font-family: sans-serif;">Re-enter Password</label><br>
+                <i class="fa fa-key" aria-hidden="true"
+                    style="padding: 10px;background: dodgerblue;color: white;min-width: 50px;text-align: center;">
+                </i> <input type="password" name="password" id="repass" placeholder="Re-enter Password" required
+                    style="font-family: calibri;padding: 5px;" size="60"><br>
+            </div>
+            <div>
+                <h3 id="form-heading" style="font-size: 22px;">Personal Details</h3><br>
+                <hr>
+                <label for="name" style="font-family: sans-serif;">Your Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Name" required
+                    style="font-family: calibri;padding: 5px; width: 36%;min-width: 320px;"><BR><br>
+                <label for="gender">Gender</label><br>
+                <select name="gender" style="padding: 5px;width: 36%;min-width: 320px;" id="gender" required>
+                    <option value="">Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female </option>
+                    <option value="Other">Other</option>
+                    <option value="NA">Rather Not Say</option>
+                </select>
+                <br><br>
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" style="padding: 5px;width: 36%;min-width: 320px;" required><br><br>
+
+                <label for="number" style="font-family: sans-serif;">Contact Number</label><br>
+                <input type="number" name="number" id="number" required
+                    style="font-family: calibri;padding: 5px;width: 36%;min-width: 320px;" maxlength="10" required><br><br>
+                <label for="rnumber" style="font-family: sans-serif;">Recovery Phone Number</label><br>
+                <input type="number" name="recoverynumber" id="rnumber"
+                    style="font-family: calibri;padding: 5px; width: 36%;min-width: 320px;" maxlength="10"><br><br>
+                <label for="remail" style="font-family: sans-serif;">Recovery Email Id</label><br>
+                </i> <input type="email" name="email" id="remail" placeholder="example@mail.com" required
+                    style="font-family: calibri;padding: 5px;width: 36%;min-width: 320px;" required>
+            </div>
+            <br>
+            <div>
+                <button class="btn-own" class="submit" id="sub-mit">Sign Up</button>
+            </div>
+            
+        </form>
+    </main>
+    <!-- contact -->
+    <footer id="foot">
+        <section id="contact">
+            <h1 style="font-size: 35px;margin-left: 6vw;">
+                Contact
+            </h1>
+            <div id="contact-container">
+                <div id="my-details-container">
+                    <h3> Get In touch </h3>
+                    <p>For Any Additional Information Contact Us At </p>
+
+                    <h3> Address </h3>
+                    <div class="my-details-info-container"><a
+                            href="https://www.google.com/maps/place/Rudrapur,+Uttarakhand/@28.9882367,79.3605345,13z/data=!3m1!4b1!4m5!3m4!1s0x39a07f9567c1f745:0xdffe5c8738783baf!8m2!3d28.9875082!4d79.4141214"
+                            target="_blank" style="text-decoration: none;color: white;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rudrapur, Dist.- Udham Sing Nagar, Uttrakhand-263153, India</span>
+                        </a>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <span>8916048481</span>
+                    </div>
+                    <div class="my-details-info-container"><a href="https://mail.google.com" target="_blank"
+                            style="text-decoration: none;color: white;">
+                            <i class="far fa-envelope"></i>
+                            <span>bloodtest_2020@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="my-details-container">
+                    <h3>Additional Information</h3>
+                    <a href="../pg3/faq.html" target="_blank" style="text-decoration: none;color: white;">FAQ</a><br>
+                    <a href="../pg2/contact.html" target="_blank" style="text-decoration: none;color: white;">Contact
+                        Us</a><br>
+                    <a href="../pg5/privacy.html" target="_blank" style="text-decoration: none;color: white;">Privacy
+                        Policy</a>
+                </div>
+                <div id="my-details-container">
+                    <h3>Let Us Help You</h3>
+                    <a href="form.html" style="color: white;">Apply online For Blood Donation At Your Nearest Blood
+                        Bank</a>
+                    <h3>You Can Donate To Help</h3>
+                    <span class="paymenticons" style="font-size: 4.5rem;">
+                        <span style="flex-grow: 1;"><a href="https://www.mastercard.co.in/en-in.html"
+                                style="text-decoration: none;color: white;" target="_blank"><i
+                                    class="fab fa-cc-mastercard" aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a
+                                href="https://www.paypal.com/in/webapps/mpp/home?gclsrc=aw.ds&gclid=CjwKCAjwlID8BRAFEiwAnUoK1U42lw7AQvFMbu0qSSG1q1q2tYfUiM05ieyba3FDztz4Opaq4jGCLBoCD60QAvD_BwE&gclsrc=aw.ds"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-cc-paypal"
+                                    aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://www.visa.co.in/"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-cc-visa"
+                                    aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://pay.google.com/intl/en_in/about/"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-google"
+                                    aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://www.hdfcbank.com/"
+                                style="text-decoration: none;color: white;" target="_blank"><i class="fa fa-credit-card"
+                                    aria-hidden="true"></i></a></span>
+                    </span>
+                </div>
+                <div id="my-details-container">
+                    <p style="text-align: justify;"> &copy; 2002-2020 HealthChitkara is a <a
+                            href="https://www.chitkara.edu.in/" style="color: white;">Chitkara University</a>.
+                        All rights reserved. Our website services, content, and products are for informational purposes
+                        only.We do not provide medical advice, diagnosis, or treatment.
+                    </p>
+                </div>
+        </section>
+    </footer>
+    <script src="signup2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HealthChitkara:Blood Donation
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="faq1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="../favcon2.png">
+</head>
+
+<body>
+    <nav style="margin: 0px;">
+        <h1 id="logo"><a href="./index.html" target="_blank"><img src="../LOGO.jpg"></a></h1>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pg1/benefits.html">Why Donate?</a></li>
+            <li>
+                <a href="../pg5/eligibility.html">Eligibility</a>
+            </li>
+            <li>
+                <a href="../pg4/process4.html">Process</a>
+            </li>
+            <li>
+                <a href="../pg3/faq.html">FAQ</a>
+            </li>
+            <li><a href="../pg2/form.html">Donate Now!</a></li>
+            <li>
+                <a href="../pg2/contact.html">Contact Us</a>
+            </li>
+        </ul>
+        <div class="burger" onclick="navSlide()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <!-- faq main -->
+    <main id="content1">
+        <h1 id="faq">FAQ</h1>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i>I Don't Like Needles</summary>
+            <p style="font-family: sans-serif;">You’re not alone: fear of needles certainly prevents some people from donating blood. But if you’re willing to spend a few minutes facing your fears (donating really can be that fast) you may find that the satisfaction you feel makes it worth it.
+
+            </p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i>I'm Not Sure I'm Eligible</summary>
+            <p style="font-family: sans-serif;">For most donations, these are the basic requirements: <a href="../pg5/eligibility.html" style="color: initial;">Eligibility</a></p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i>Is It Safe</summary>
+            <p style="font-family: sans-serif;">Yes, donating blood is safe. You can’t get AIDS or any other infectious disease from giving blood because we always use new, sterile needles that are discarded after one use.</p>
+            <p style="font-family: sans-serif;">You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure, pulse and hemoglobin.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i>I'm Afraid I'll Faint</summary>
+            <p style="font-family: sans-serif;">Most donors feel fine after donating blood, but if you do feel faint or fatigued, simply lie down until you feel better. It might help you to think about this: you have about 10 pints of blood in your body. Roughly 1 pint is given during a donation. Your body can replenish that loss in a short time (a matter of hours for some components, a few weeks for others).</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i>I Don't Have the Right Kind of Blood</summary>
+            <p style="font-family: sans-serif;">Perhaps you’ve heard an appeal for donors that says we’re running low on certain blood types. That doesn’t mean other types aren’t valuable: there’s always a need and purpose for every type of blood.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;What is in a drop of blood?</summary>
+            <p style="font-family: sans-serif;">The human body is constituted of cells, and all these cells require oxygen and nutrients to live. The main function of blood is to carry oxygen & these nutrients to various parts of the body and remove the waste material from these cells.
+
+                A healthy human being will have approximately 5 liters of blood flowing through his body. Blood constitutes of main parts viz. blood cells and plasma. The blood cells are of three types:
+                
+                 Red Blood Cells (RBC) - RBCs gives oxygen and take carbon di-oxide from body cells.
+                 White Blood Cells (WBC) - WBCs protect our body from infections caused by micro- organisms.
+                 Platelets - Platelets help us in preventing and stopping bleeding from cuts and wounds.
+                These blood cells float in plasma, which contains proteins, fats, minerals, vitamins and many essential elements and in short, all the nutrients required for the body cells to survive and function. Plasma is the transport medium for everything that passes from organ to organ, into and out of the body tissues.
+                
+                Thus, blood becomes the most vital part of human body.</p>
+        </details>
+        <details>
+            <summary onclick="check(this.className)" class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;Are there different blood groups?</summary>
+            <p style="font-family: sans-serif;">Yes, there are four main groups A, B, AB, and O. All four groups have two subgroups i.e. Rh positive & Rh negative. 5% of Indian population is Rh Negative. If your blood group is Rh Negative please register your name in the blood bank, since Rh Negative blood is scare.</p>
+        </details>
+        <details>
+            <summary onclick="check(this.className)" class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> Why blood is so scare?</summary>
+            <p style="font-family: sans-serif;">There is no substitute for human blood. Only human body can manufacture blood. Statistics reveal that only 0.5% of the population donates blood while more than 50% is eligible to do so. The requirement of blood is many times more than the amount collected.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> Who needs blood transfusion?</summary>
+            <p style="font-family: sans-serif;">Patients undergoing surgeries, deliveries, victims of accident, people suffering from Cancer, Thalassemia, Haemophelia, and severe Anaemia will require blood.</p>
+        </details> 
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> Who can donate blood?</summary>
+            <p style="font-family: sans-serif;">Anyone who wishes to donate blood is between 18 to 60 years of age, weight at least 45kgs and has haemoglobin level of at least 12.5gm/100ml, can donate.
+                <br><br>
+               <strong> A complete medical examination will be conducted to decide whether you are fit for donation. Inform the doctor if you have had any recent illness.</strong></p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> How much blood is collected?</summary>
+            <p style="font-family: sans-serif;">Only 350ml of blood (out of 5 liters flowing in your body) is collected at one donation.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> How much time does it take?</summary>
+            <p style="font-family: sans-serif;">Blood donation takes just 10-15min.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> How many times can one donate blood?</summary>
+            <p style="font-family: sans-serif;">One can donate blood once in three months.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> Will there be any side effects after blood donation?</summary>
+            <p style="font-family: sans-serif;">Not at all. Your body has around 5 liters of blood; of this only 350ml will be donated by you. This volume is replaced in your body within 2 days. As a matter of fact you can proceed for work immediately after donation.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> Is there any chance of contracting AIDS or jaundice after donating blood?</summary>
+            <p style="font-family: sans-serif;">No, the blood bags, needles and tubes used during blood collection are sterile and disposable. The donor is at no risk at all.</p>
+        </details>
+        <details>
+            <summary class="sum1"><i class="fa fa-plus-square" aria-hidden="true"></i> How many lives are saved by one blood donation?</summary>
+            <p style="font-family: sans-serif;">Blood is made up Red blood cells, white blood cells, Platelets and plasma. Most of the times, a patient may not require whole blood, but any one component. Now with the progress in science; it is possible to prepare the required component for a particular disease.
+                <br><br>
+                Under these circumstances from one blood donation, 3-4 patients can be served.</p>
+        </details>
+        
+        <details>
+            <summary class="sum1"></summary>
+            <p style="font-family: sans-serif;"></p>
+        </details>
+    </main>
+    <!-- contact -->
+    <footer id="foot">
+        <section id="contact">
+            <h1 style="font-size: 35px;margin-left: 6vw;">
+                Contact
+            </h1>
+            <div id="contact-container">
+                <div id="my-details-container">
+                    <h3> Get In touch </h3>
+                    <p>For Any Additional Information Contact Us At </p>
+
+                    <h3> Address </h3>
+                    <div class="my-details-info-container"><a
+                            href="https://www.google.com/maps/place/Rudrapur,+Uttarakhand/@28.9882367,79.3605345,13z/data=!3m1!4b1!4m5!3m4!1s0x39a07f9567c1f745:0xdffe5c8738783baf!8m2!3d28.9875082!4d79.4141214"
+                            target="_blank" style="text-decoration: none;color: white;">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rudrapur, Dist.- Udham Sing Nagar, Uttrakhand-263153, India</span>
+                        </a>
+                    </div>
+                    <div class="my-details-info-container">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <span>8916048481</span>
+                    </div>
+                    <div class="my-details-info-container"><a href="https://mail.google.com" target="_blank"
+                            style="text-decoration: none;color: white;">
+                            <i class="far fa-envelope"></i>
+                            <span>bloodtest_2020@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="my-details-container">
+                    <h3>Additional Information</h3>
+                    <a href="../pg3/faq.html" target="_blank" style="text-decoration: none;color: white;">FAQ</a><br>
+                    <a href="../pg2/contact.html" target="_blank" style="text-decoration: none;color: white;">Contact
+                        Us</a><br>
+                    <a href="../pg5/privacy.html" target="_blank" style="text-decoration: none;color: white;">Privacy Policy</a>
+                </div>
+                <div id="my-details-container">
+                    <h3>Let Us Help You</h3>
+                    <a href="../pg2/form.html" style="color: white;">Apply online For Blood Donation At Your Nearest Blood Bank</a>
+                    <h3>You Can Donate To Help</h3>
+                    <span class="paymenticons" style="font-size: 4.5rem;">
+                        <span style="flex-grow: 1;"><a href="https://www.mastercard.co.in/en-in.html" style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-cc-mastercard" aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://www.paypal.com/in/webapps/mpp/home?gclsrc=aw.ds&gclid=CjwKCAjwlID8BRAFEiwAnUoK1U42lw7AQvFMbu0qSSG1q1q2tYfUiM05ieyba3FDztz4Opaq4jGCLBoCD60QAvD_BwE&gclsrc=aw.ds" style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-cc-paypal" aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://www.visa.co.in/" style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-cc-visa" aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://pay.google.com/intl/en_in/about/" style="text-decoration: none;color: white;" target="_blank"><i class="fab fa-google" aria-hidden="true"></i></a></span>
+                        <span style="flex-grow: 1;"><a href="https://www.hdfcbank.com/" style="text-decoration: none;color: white;" target="_blank"><i class="fa fa-credit-card" aria-hidden="true"></i></a></span>
+                </span>
+                </div>
+                <div id="my-details-container">
+                    <p style="text-align: justify;"> &copy; 2002-2020 HealthChitkara is a <a
+                            href="https://www.chitkara.edu.in/" style="color: white;">Chitkara University</a>.
+                        All rights reserved. Our website services, content, and products are for informational purposes
+                        only.We do not provide medical advice, diagnosis, or treatment.
+                    </p>
+                </div>
+        </section>
+    </footer>
+    <script src="faq2.js"></script>
+</body>
+
+</html>
